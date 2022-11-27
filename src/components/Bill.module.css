@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1024px) {
+    .billInput {
+        max-height: 48px;
+        max-width: 311px;
+        font-size: 16px;
+        line-height: 24px;        
+    }
+}
+
+.txt {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
+    
+}
+
+.billInput {
+    height: 48px;
+    width: 379px;
+    border-radius: 5px;
+    background: #F3F9FA;
+    border-style: none;
+    text-align: right;
+    caret-color: #26C2AE;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px; 
+    color: #00474B;
+    padding-right: 10px;
+}
+
+.billInput::-webkit-outer-spin-button,
+.billInput::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+.billInput:focus {
+    outline-color: #26C2AE;
+}
+
+.container img {
+    position: absolute;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 15px;
+}

@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1024px) {
+    .resBtn {
+        max-height: 48px;
+        max-width: 281px;
+        
+    }
+}
+
+.resBtn {
+    background: #26C2AE;
+    height: 48px;
+    width: 333px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #00474B;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.resBtn:hover {
+    background-color: #9FE8DF;
+}

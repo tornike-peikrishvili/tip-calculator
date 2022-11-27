@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1024px) {
+    .btnContainer {
+        max-width: 100%;
+        min-height: 200px;
+    }
+
+    .container {
+        max-width: 90%;
+
+    }
+
+    .perInput {
+        min-height: 48px;
+        min-width: 143px;
+    }
+}
+
+.txt {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
+}
+
+.perInput {
+    height: 46px;
+    width: 113px;
+    border-radius: 5px;
+    border-style: none;
+    background: #F3F9FA;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px; 
+    color: #00474B;
+    text-align: right;
+}
+
+
+.perInput::-webkit-outer-spin-button,
+.perInput::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+.btnContainer {
+    display: flex;
+    width: 380px;
+    height: 130px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    caret-color: #26C2AE;
+}
+
+.perInput:focus {
+    outline-color: #26C2AE;
+    
+}
+
+.perInput::placeholder {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #547878;
+}
+
+.perInput:focus::placeholder {
+    color: transparent;
+}

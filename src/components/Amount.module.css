@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1024px) {
+    .container .sum {
+        font-size: 32px;
+        line-height: 47px;
+    }
+
+    .container .amount {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+
+.amount {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px; 
+    color: #7F9D9F;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.sum {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;  
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;
+}
